@@ -1,0 +1,27 @@
+  .c-statusbtn-root {
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .c-statusbtn-root.lightblue {
+    background: #19A8F5;
+  }
+  .c-statusbtn-root.blue {
+    background: #2D64F1;
+  }
+  .c-statusbtn-root.purple {
+    background: #E65DFF;
+  }
+  .c-statusbtn-root.orange {
+    background: #ED805E;
+  }
+  .c-statusbtn-root.violet {
+    background: #9555FF;
+  }
+  .c-statusbtn-root.disable {
+    opacity: 0.8;
+  }

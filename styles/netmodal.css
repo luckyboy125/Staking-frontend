@@ -1,0 +1,131 @@
+.c-netmodal-loaderWrapper {
+  position: fixed;
+  z-index: 99998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.c-netmodal-bigbugRoot {
+  padding: 30px;
+  position: fixed;
+  flex-direction: column;
+  width: 538px;
+  background: #282e4e;
+  box-shadow: 0px 0px 30px rgba(55, 55, 79, 0.05);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 99999;
+}
+.c-netmodal-bigbugLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: white;
+  font-family: Montserrat;
+}
+.c-netmodal-bigbugDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #96a1db;
+  font-family: "Open Sans";
+  margin-top: 20px;
+}
+.c-netmodal-mainnet {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  margin-top: 20px;
+}
+.c-netmodal-bidchange {
+  min-width: 160px;
+  width: 100%;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+}
+.c-netmodal-viewinformationroot {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.c-netmodal-viewtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: white;
+  font-family: Montserrat;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.c-netmodal-viewtitle:hover {
+  opacity: 0.7;
+}
+
+.c-netmodal-item {
+  margin: 10px auto;
+  width: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.c-netmodal-itemlabel {
+  width: 150px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  text-align: start;
+}
+.c-netmodal-itemcontent {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #96a1db;
+  font-family: "Open Sans";
+}
+
+@media (max-width: 769px) {
+  .c-netmodal-bigbugRoot {
+    min-width: calc(100% - 32px) !important;
+    width: calc(100% - 32px) !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .c-netmodal-item {
+    flex-direction: column !important;
+    justify-content: center !important;
+    width: unset !important;
+  }
+  .c-netmodal-itemlabel {
+    width: unset !important;
+  }
+  .c-netmodal-itemcontent {
+    margin-top: 5px;
+  }
+}

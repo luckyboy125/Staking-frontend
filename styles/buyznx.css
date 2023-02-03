@@ -1,0 +1,110 @@
+.c-buyznx-root {
+  padding: 20px 26px 20px 24px;
+  background: #1f213a;
+  border-radius: 6px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.c-buyznx-div {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.c-buyznx-text {
+  display: flex;
+  align-items: center;
+}
+.c-buyznx-successcontent {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  color: #1baf07;
+}
+.c-buyznx-errcontent {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  color: #dd1652;
+}
+.c-buyznx-title {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  color: #9b9fbe;
+}
+.c-buyznx-connectwalletbtn {
+  background: linear-gradient(91.16deg, #2d64f1 3.3%, #ff40d5 102.48%);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 179px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 9px 20px;
+}
+.c-buyznx-connectwalletbtn:hover {
+  background: linear-gradient(91.16deg, #2251ca 3.3%, #d838b4 102.48%);
+}
+.c-buyznx-walletconnection {
+  min-width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+@media (max-height: 789px) {
+  .c-buyznx-root {
+    padding: 13px 26px 13px 24px !important;
+  }
+}
+
+@media (max-height: 660px) {
+  .c-buyznx-root {
+    padding: 5px 26px 5px 24px !important;
+  }
+  .c-buyznx-title {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-buyznx-root {
+    padding: 23px 26px 23px 24px !important;
+  }
+  .c-buyznx-title {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+
+@media (max-width: 670px) {
+  .c-buyznx-root {
+    display: block !important;
+  }
+}

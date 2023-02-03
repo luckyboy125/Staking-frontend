@@ -1,0 +1,95 @@
+.c-display {
+  display: none;
+}
+.c-loaderWrapper {
+  position: fixed;
+  z-index: 99998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+.c-spinnerRoot {
+  position: fixed;
+  flex-direction: column;
+  z-index: 99999;
+  text-align: center;
+}
+.c-spinner-content :nth-child(1) {
+  display: none !important;
+}
+.c-spinner-content :nth-child(2) {
+  color: #2d64f1 !important;
+  stroke-dasharray: 111, 63 !important;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(2);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.c-spinner-loading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.c-spinner-load {
+  color: #2d64f1;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: Open Sans;
+}
+.c-spinner-dot1 {
+  color: #2d64f1;
+  display: flex;
+  animation: zoomin 1000ms;
+  animation-delay: 250ms;
+  animation-iteration-count: infinite;
+}
+.c-spinner-dot2 {
+  margin-left: 5px;
+  color: #2d64f1;
+  display: flex;
+  animation: zoomin 1000ms;
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
+}
+.c-spinner-dot3 {
+  margin-left: 5px;
+  color: #2d64f1;
+  display: flex;
+  animation: zoomin 1000ms;
+  animation-delay: 750ms;
+  animation-iteration-count: infinite;
+}
+.c-spinner-dot1 .MuiSvgIcon-root {
+  width: 5px;
+}
+.c-spinner-dot2 .MuiSvgIcon-root {
+  width: 5px;
+}
+.c-spinner-dot3 .MuiSvgIcon-root {
+  width: 5px;
+}
+.c-spinner-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}

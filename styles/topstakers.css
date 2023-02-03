@@ -1,0 +1,156 @@
+.c-topstakers-stakersroot {
+  background: #1f213a;
+  width: 100%;
+  border-radius: 6px;
+  padding: 25px 24px 25px 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-width: 374px;
+}
+.c-topstakers-stakercontent {
+  height: 250px;
+}
+.c-topstakers-stakercontentroot {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.c-topstakers-stakerstitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.c-topstakers-empty {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9b9fbe;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.c-topstakers-emptyBackground {
+  width: 100px;
+  margin: 10px auto;
+}
+.c-topstakers-stakeritem {
+  display: flex;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #3f436b;
+}
+.c-topstakers-stakeritemstatusbtn {
+  min-width: 22px;
+  width: 22px;
+  height: 24px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.c-topstakers-stakerrightpart {
+  margin-left: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.c-topstakers-stakeraddress {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9b9fbe;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.c-topstakers-amount {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.c-topstakers-amountvalue {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2d64f1;
+}
+.c-topstakers-amountvaluelightbluecolor {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #19a8f5;
+}
+.c-topstakers-amountvaluepurple {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #e65dff;
+}
+
+@media (max-height: 789px) {
+  .c-topstakers-stakersroot {
+    padding: 20px 24px 20px 24px !important;
+  }
+}
+
+@media (max-height: 660px) {
+  .c-topstakers-stakersroot {
+    padding: 20px 24px 20px 24px !important;
+  }
+  .c-topstakers-stakeritem {
+    margin-top: 9px !important;
+    padding-bottom: 5px !important;
+  }
+  .c-topstakers-stakercontent {
+    height: 200px;
+  }
+  .c-topstakers-stakerstitle {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-topstakers-stakersroot {
+    padding: 25px 24px 20px 24px !important;
+  }
+  .c-topstakers-stakeritem {
+    margin-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .c-topstakers-stakerstitle {
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-topstakers-stakersroot {
+    min-width: unset !important;
+  }
+}
+
+@media (max-width: 960px ){
+  .c-topstakers-stakercontent{
+    height: unset !important;
+  }
+}
