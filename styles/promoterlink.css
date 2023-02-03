@@ -1,0 +1,117 @@
+.c-promoterlink-linkroot {
+  padding: 20px 26px 20px 24px;
+  background: #1f213a;
+  border-radius: 6px;
+  margin-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.c-promoterlink-linkdiv{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.c-promoterlink-linktitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400; 
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.c-promoterlink-linkcopyicon {
+  min-width: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.c-promoterlink-link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2d64f1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: unset;
+}
+.copycheckicon{
+  color: #d940ff;
+  min-width: 24px;
+  height: 30px;
+  margin-left: 24px;
+  cursor: pointer;
+  width: 24px;
+}
+.c-promoterlink-connectwalletbtn {
+  background: linear-gradient(91.16deg, #2d64f1 3.3%, #ff40d5 102.48%);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 179px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+.c-promoterlink-connectwalletbtn:hover {
+  background: linear-gradient(91.16deg, #2251ca 3.3%, #d838b4 102.48%);
+}
+.c-promoterlink-walletconnection {
+  min-width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+
+@media (max-height: 789px) {
+  .c-promoterlink-linkroot {
+    padding: 13px 26px 13px 24px !important;
+  }
+}
+
+@media (max-height: 660px) {
+  .c-promoterlink-linkroot {
+    padding: 5px 26px 5px 24px !important;
+  }
+  .c-promoterlink-linktitle {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-promoterlink-linkroot {
+    padding: 23px 26px 23px 24px !important;
+  }
+  .c-promoterlink-linktitle {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .c-promoterlink-linkroot {
+    margin-left: unset !important;
+  }
+}
+
+@media (max-width:670px){
+  .c-promoterlink-linkroot{
+    display: block !important;
+  }
+}

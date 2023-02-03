@@ -1,0 +1,77 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.removeborderbottom {
+  border-bottom: none !important;
+}
+.maxwidthset {
+  max-width: 290px !important;
+}
+.linkactive {
+  color: #ffffff !important;
+  border-bottom: solid 1px #9b9fbe !important;
+}
+.headeractive {
+  border-bottom: 2px solid #2d64f1;
+}
+.headeractive a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff !important;
+}
+
+*::-webkit-scrollbar {
+  width: 5px !important;
+  height: 6px;
+  background: #000;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background: rgba(0, 0, 0, 0.05);
+}
+*::-webkit-scrollbar-thumb {
+  background: #3d3a46;
+  border-radius: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.marginleft {
+  margin-left: 10px !important;
+}
+.centerAlign {
+  text-align: center !important;
+}
+.downStatus {
+  transform: rotate(90deg);
+}
+.displayNone {
+  display: none !important;
+}
+.marginLeft5{
+  margin-left: 5px !important;
+}

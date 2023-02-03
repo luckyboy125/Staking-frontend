@@ -1,0 +1,96 @@
+.c-userstakinginfo-root {
+  width: 100%;
+  background: #1f213a;
+  border-radius: 6px;
+  padding: 15px 20px;
+  position: relative;
+}
+.c-userstakinginfo-itemdescription {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #9b9fbe;
+}
+.c-userstakinginfo-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #3f436b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.c-userstakinginfo-firstpart {
+  display: flex;
+  align-items: center;
+}
+.c-userstakinginfo-statubtn {
+  height: 34px;
+  min-width: 34px;
+}
+.c-userstakinginput-btnspinner .MuiCircularProgress-svg{
+  color: white;
+}
+.c-userstakinginfo-statubtn .c-userstakinginfo-btnicon {
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.c-userstakinginfo-descript {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9b9fbe;
+  margin-left: 15px;
+}
+.c-userstakinginfo-value {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-top: 6px;
+}
+
+@media (max-height: 789px) {
+  .c-userstakinginfo-root {
+    padding: 15px 20px !important;
+  }
+  .c-userstakinginfo-item {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .c-userstakinginfo-itemdescription {
+    top: 8px !important;
+  }
+}
+
+@media (max-height: 660px) {
+  .c-userstakinginfo-root {
+    padding: 10px 10px !important;
+  }
+  .c-userstakinginfo-item {
+    padding-top: 8px !important;
+    padding-bottom: 9px !important;
+  }
+  .c-userstakinginfo-itemdescription {
+    top: 2px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-userstakinginfo-root {
+    padding: 25px 20px !important;
+  }
+  .c-userstakinginfo-item {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+}

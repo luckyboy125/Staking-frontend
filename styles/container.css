@@ -1,0 +1,99 @@
+.c-container-root {
+  max-width: 1228px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  width: 100%;
+}
+.c-container-firstpart {
+  display: flex;
+  justify-content: space-between;
+}
+.c-container-secondpart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.c-container-secondpart1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.c-container-secondpart2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  max-width: 748px;
+}
+.c-container-secondpart21 {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+@media (max-height: 789px) {
+  .c-container-secondpart {
+    margin-top: 10px !important;
+  }
+  .c-container-secondpart21 {
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-height: 660px) {
+  .c-container-secondpart {
+    margin-top: 5px !important;
+  }
+  .c-container-stakeritem {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .c-container-secondpart21 {
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-container-root {
+    width: 100% !important;
+  }
+  .c-container-firstpart {
+    display: block !important;
+  }
+  .c-container-secondpart {
+    margin-top: 20px !important;
+    display: block !important;
+  }
+  .c-container-secondpart2 {
+    max-width: unset !important;
+    margin-left: unset !important;
+  }
+  .c-container-secondpart21 {
+    margin-top: 20px !important;
+  }
+  .c-container-secondpart1 {
+    flex-direction: row !important;
+  }
+}
+@media (max-width: 960px){
+  .c-container-promoterlink {
+    margin-top: 20px !important;
+  }
+  .c-container-contractinfo {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 800px) {
+  .c-container-secondpart1 {
+    display: block !important;
+  }
+}
+@media (max-width: 776px) {
+  .c-container-secondpart21 {
+    display: block !important;
+  }
+}

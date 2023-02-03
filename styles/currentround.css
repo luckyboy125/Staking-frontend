@@ -1,0 +1,103 @@
+.c-currentround-roundroot {
+  flex-grow: 1;
+  width: 100%;
+  background: #2d64f1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px 13px 20px;
+  animation-iteration-count: 1;
+  animation-name: zoomIn;
+  animation-fill-mode: both;
+  animation-duration: 0.5s;
+}
+.c-currentround-roundtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.c-currentround-rounddescript {
+  min-width: 375px;
+  display: flex;
+  justify-content: space-around;
+}
+.c-currentround-roundstatus {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 34px;
+  color: #ffffff;
+}
+.c-currentround-roundstatustitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: right;
+  color: #ffffff;
+}
+
+@media (max-height: 789px) {
+  .c-currentround-roundroot {
+    padding: 10px 41px 10px 20px !important;
+  }
+}
+
+@media (max-height: 660px) {
+  .c-currentround-roundroot {
+    padding: 5px 41px 5px 20px !important;
+  }
+  .c-currentround-roundstatus {
+    font-size: 16px !important;
+    line-height: 18px !important;
+  }
+}
+@media (max-width: 650px) {
+  .c-currentround-roundroot {
+    text-align: center !important;
+    display: block !important;
+  }
+}
+@media (max-width: 1200px) {
+  .c-currentround-roundroot {
+    margin-top: 50px !important;
+    padding: 25px 20px 20px 20px !important;
+  }
+}
+
+@media (max-width: 776px) {
+  .c-currentround-secondpart21 {
+    display: block !important;
+  }
+  .c-currentround-contractroot {
+    margin-left: unset !important;
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 650px) {
+  .c-currentround-roundroot {
+    text-align: center !important;
+    display: block !important;
+  }
+}
+@media (max-width: 567px) {
+  .c-currentround-rounddescript {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 500px) {
+  .c-currentround-roundroot {
+    display: block !important;
+    text-align: center !important;
+  }
+  .c-currentround-rounddescript {
+    display: block !important;
+    min-width: unset !important;
+  }
+}

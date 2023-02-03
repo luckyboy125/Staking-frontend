@@ -1,0 +1,162 @@
+.c-userstakinginput-root {
+  width: 100%;
+  background: #1f213a;
+  border-radius: 6px;
+  padding: 15px 20px;
+  flex-grow: inherit;
+}
+.c-userstakinginput-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-userstakinginput-btnletter {
+  flex-grow: 1;
+  text-align: center;
+}
+.c-userstakinginput-btns {
+  display: flex;
+  padding-left: 20px;
+}
+.c-userstakinginput-statusbtn1 {
+  padding: 6px 10px 7px 20px;
+  min-width: 140px;
+  cursor: pointer;
+}
+.c-userstakinginput-statusbtn1disable {
+  padding: 6px 10px 7px 20px;
+  min-width: 140px;
+  cursor: not-allowed;
+}
+.c-userstakinginput-statusbtn1:hover {
+  background: #2251ca;
+}
+.c-userstakinginput-statusbtn2 {
+  padding: 6px 10px 7px 20px;
+  min-width: 140px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.c-userstakinginput-statusbtn2:hover {
+  background: #168bca;
+}
+.c-userstakinginput-statusbtn3 {
+  padding: 6px 10px 7px 20px;
+  min-width: 140px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.c-userstakinginput-statusbtn3disable {
+  padding: 6px 10px 7px 20px;
+  min-width: 140px;
+  cursor: not-allowed;
+  margin-left: 20px;
+}
+.c-userstakinginput-statusbtn3:hover {
+  background: #be4dd2;
+}
+.c-userstakinginput-itemwithoutborder {
+  border-bottom: none;
+}
+.c-userstakinginput-btnicon {
+  min-width: 20px;
+  min-height: 20px;
+}
+.c-userstakinginput-borderline {
+  margin-left: 49px;
+  padding-left: 29px;
+  border-left: 1px dashed #3f436b;
+}
+.c-userstakinginput-input {
+  display: flex !important;
+  align-content: center !important;
+  border: 1px solid #25294e !important;
+  box-sizing: border-box !important;
+  border-radius: 6px !important;
+  color: white !important;
+  width: 100% !important;
+  flex-grow: 1 !important;
+}
+.c-userstakinginput-input .MuiInputBase-input {
+  padding: 5px 16px 3px 16px !important;
+  font-family: Open Sans !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 26px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: white;
+  height: unset;
+}
+.c-userstakinginput-input ::before {
+  border: none !important;
+}
+.c-userstakinginput-input:hover:not(.Mui-disabled):before {
+  border: none !important;
+}
+.c-userstakinginput-input ::after {
+  border: none !important;
+}
+.c-userstakinginput-subbtn {
+  margin-top: 32px;
+}
+.c-userstakinginput-part {
+  margin-top: 60px;
+}
+.c-userstakinginput-margintop {
+  margin-top: 0px;
+}
+@media (max-height: 789px) {
+  .c-userstakinginput-root {
+    padding: 10px 20px !important;
+  }
+}
+@media (max-height: 660px) {
+  .c-userstakinginput-root {
+    padding: 10px 10px !important;
+    margin-left: unset !important;
+  }
+}
+@media (max-width: 1200px) {
+  .c-userstakinginput-root {
+    padding: 25px 20px !important;
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 960px) {
+  .c-userstakinginput-borderline {
+    margin-left: 20px !important;
+    padding-left: 0px !important;
+  }
+}
+@media (max-width: 625px) {
+  .c-userstakinginput-root {
+    margin-left: unset !important;
+  }
+  .c-userstakinginput-item {
+    display: block !important;
+  }
+  .c-userstakinginput-btns {
+    justify-content: center !important;
+    margin-top: 20px !important;
+    padding-left: unset !important;
+  }
+}
+@media (max-width: 400px) {
+  .c-userstakinginput-btns {
+    display: block !important;
+  }
+  .c-userstakinginput-borderline {
+    margin-left: unset !important;
+    padding-left: unset !important;
+    border-left: unset !important;
+    margin-top: 10px !important;
+  }
+  .c-userstakinginput-statusbtn3 {
+    margin-left: unset !important;
+  }
+  .c-userstakinginput-statusbtn3disable{
+    margin-left: unset !important;
+  }
+}

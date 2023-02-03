@@ -1,0 +1,209 @@
+.c-header-root {
+  border-bottom: 1px solid #31345a;
+  width: 100%;
+  background-color: #1b1c31;
+}
+
+.c-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  max-width: 1228px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.c-header-menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.c-header-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.c-header-logo-img {
+  width: 36px;
+  height: 36px;
+  margin-top: 2px;
+}
+
+.c-header-logo-name {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  margin: 0px 10px;
+}
+
+.c-header-nav {
+  color: #9b9fbe !important;
+  text-transform: none !important;
+  padding: 2px 0px 0px 0px !important;
+  font-size: 16px !important;
+  line-height: 18px !important ;
+  height: 100%;
+  margin: 0px 20px !important;
+}
+
+.c-header-nav-active {
+  color: white !important;
+}
+
+.c-header-nav:hover {
+  cursor: pointer;
+}
+
+.c-header-nav-active .MuiButton-label {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.c-header-nav-active .active-border {
+  width: 34px;
+  height: 2px;
+  background: #2d64f1;
+}
+
+.c-header-nav-active .none-border {
+  width: 34px;
+  height: 2px;
+  background: transparent;
+}
+.c-scroll-top {
+  opacity: 0.5;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 1000;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.c-scroll-top-disable {
+  display: none;
+}
+
+.c-scroll-top-icon {
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #06060f;
+  color: #99a9b5;
+  cursor: pointer;
+}
+
+.c-header-mobile-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c-header-mobile-icon {
+  color: #96a1db;
+}
+
+.c-header-mobile-menu-collapse {
+  position: absolute;
+  z-index: 10;
+}
+
+.c-header-mobile-menu-content {
+  width: 180px !important;
+  margin-top: 5px !important;
+  background-color: #1a1f37;
+  border-radius: 4px;
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%),
+    0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
+
+.c-header-mobile-menu-content .MuiListItem-root {
+  padding-left: 38px;
+  color: #96a1db;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 8px;
+}
+
+.c-header-mobile-menu-content .MuiListItem-root.active-list {
+  color: white;
+}
+.c-header-connectwalletbtn {
+  background: linear-gradient(91.16deg, #2d64f1 3.3%, #ff40d5 102.48%);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 179px;
+  height: 41px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #ffffff;
+  cursor: pointer;
+}
+.c-header-connectaddress {
+  background: linear-gradient(91.16deg, #2d64f1 3.3%, #ff40d5 102.48%);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 179px;
+  height: 41px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #ffffff;
+}
+.c-header-connectwalletbtn:hover {
+  background: linear-gradient(91.16deg, #2251ca 3.3%, #d838b4 102.48%);
+}
+
+.c-header-walletconnection {
+  min-width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+@media (max-width: 1024px) {
+  .c-header-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c-header-mobile-container {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .c-header-connectwalletbtn {
+    min-width: 0px !important;
+    width: 100% !important;
+  }
+  .c-header-connectaddress{
+    min-width: 0px !important;
+    width: 100% !important;
+  }
+}

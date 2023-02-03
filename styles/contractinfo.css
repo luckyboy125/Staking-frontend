@@ -1,0 +1,163 @@
+.c-contractinfo-contractroot {
+  padding: 25px 24px 25px 20px;
+  background: #1f213a;
+  border-radius: 6px;
+  margin-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.c-contractinfo-contracttitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.c-contractinfo-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+.c-contractinfo-contractimg {
+  width: 324px;
+}
+.c-contractinfo-contractaddress {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ed805e;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.c-contractinfo-contractimgroot {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #3f436b;
+  overflow: hidden;
+}
+.c-contractinfo-contractquestion {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.c-contractinfo-watchbtn {
+  margin-top: 20px;
+  background: linear-gradient(91.16deg, #2d64f1 3.3%, #ff40d5 102.48%);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #ffffff;
+  min-height: 41px;
+  width: 170px;
+  cursor: pointer;
+}
+.c-contractinfo-watchbtn:hover {
+  background: linear-gradient(91.16deg, #2251ca 3.3%, #d838b4 102.48%);
+}
+@media (max-height: 789px) {
+  .c-contractinfo-contractroot {
+    padding: 20px 24px 15px 20px !important;
+  }
+  .c-contractinfo-contractimgroot {
+    padding-bottom: 10px !important;
+  }
+  .c-contractinfo-contractquestion {
+    margin-top: 10px !important;
+  }
+  .c-contractinfo-watchbtn {
+    margin-top: 10px !important;
+  }
+  .c-contractinfo-contractaddress {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (max-height: 660px) {
+  .c-contractinfo-contractroot {
+    padding: 10px 24px 10px 20px !important;
+  }
+  .c-contractinfo-contractimgroot {
+    padding-bottom: 5px !important;
+  }
+  .c-contractinfo-contractquestion {
+    margin-top: 5px !important;
+  }
+  .c-contractinfo-watchbtn {
+    margin-top: 5px !important;
+  }
+  .c-contractinfo-contractaddress {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .c-contractinfo-contracttitle {
+    font-size: 18px !important;
+    line-height: 20px !important;
+  }
+  .c-contractinfo-contractquestion {
+    font-size: 18px !important;
+    line-height: 20px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .c-contractinfo-contractroot {
+    padding: 25px 24px 20px 20px !important;
+  }
+  .c-contractinfo-contractimgroot {
+    padding-bottom: 20px !important;
+  }
+  .c-contractinfo-watchbtn {
+    margin-top: 20px !important;
+  }
+  .c-contractinfo-contractaddress {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+  .c-contractinfo-contracttitle {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  .c-contractinfo-contractquestion {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .c-contractinfo-contractroot {
+    margin-left: unset !important;
+  }
+}
+
+@media (max-width: 776px) {
+  .c-contractinfo-contractroot {
+    margin-left: unset !important;
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 500px) {
+  .c-contractinfo-contractimg {
+    width: 100% !important;
+  }
+}
